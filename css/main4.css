@@ -1,0 +1,342 @@
+.wrap{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background: #000000;
+}
+.menu{
+    width: 900px;
+    height: 700px;
+    margin: 20px;
+    padding-top: 170px;
+    padding-left: 300px;
+    display: flex;
+}
+.menu-item1{
+    width: 90px;
+    height: 250px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid white;
+    background: white;
+    position: relative;
+    margin: 0 3px;
+    margin-top: 110px;
+    animation-name: item;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+}
+.menu-item2{
+    width: 90px;
+    height: 320px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid white;
+    background: white;
+    position: relative;
+    margin: 0 3px;
+    padding-top: 50px;
+    margin-top: 40px;
+    animation-name: item;
+    animation-duration: 1.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+}
+.menu-item3{
+     width: 90px;
+     height: 450px;
+     border-bottom-left-radius: 50px;
+     border-top-left-radius: 24px;
+     border-top-right-radius: 24px;
+     border-bottom-right-radius: 50px;
+     border: 1px solid white;
+     background: white;
+     position: relative;
+     margin: 0 3px;
+     animation-name: item;
+     animation-duration: 1.7s;
+     animation-timing-function: linear;
+     animation-iteration-count: 2;
+     animation-direction: alternate-reverse;
+ }
+.menu-item4{
+      width: 90px;
+      height: 370px;
+      border-bottom-left-radius: 50px;
+      border-top-left-radius: 24px;
+      border-top-right-radius: 24px;
+      border-bottom-right-radius: 50px;
+      border: 1px solid white;
+      background: white;
+      position: relative;
+      margin: 0 3px;
+     margin-top: 38px;
+    animation-name: item;
+    animation-duration: 1.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+  }
+.menu-item5{
+       width: 130px;
+       height: 150px;
+       border-top-right-radius: 200px;
+       border-bottom-right-radius: 150px;
+       border: 1px solid white;
+       background: white;
+       position: relative;
+       margin: 0 3px;
+       margin-top: 130px;
+    animation-name: item;
+    animation-duration: 1.9s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+   }
+.box-1{
+    width: 60px;
+    height: 70px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 49px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 24px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 161px;
+    left: 15px;
+}
+.box-2{
+    width: 60px;
+    height: 70px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 49px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 24px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 280px;
+    left: 15px;
+}
+.box-3{
+    width: 60px;
+    height: 70px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 49px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 24px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 350px;
+    left: 15px;
+}
+.box-4{
+    width: 64px;
+    height: 70px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 49px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 24px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 270px;
+    left: 14px;
+}
+.box-5{
+    width: 115px;
+    height: 40px;
+    border-bottom-left-radius: 60px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+.block-1{
+    width: 60px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    animation-name: item2;
+    animation-duration: 1.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+}
+.block-2{
+    width: 60px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    animation-name: item2;
+    animation-duration: 1.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+}
+.block-3{
+    width: 60px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    animation-name: item2;
+    animation-duration: 1.7s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+}
+.block-4{
+    width: 64px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 30px;
+    left: 14px;
+    animation-name: item2;
+    animation-duration: 1.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+}
+.block-5{
+    width: 60px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    animation-name: item2;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+}
+.block-6{
+    width: 60px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    animation-name: item2;
+    animation-duration: 1.6s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+}
+.block-7{
+    width: 60px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    animation-name: item2;
+    animation-duration: 1.7s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+}
+.block-8{
+    width: 64px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 50px;
+    left: 14px;
+    animation-name: item2;
+    animation-duration: 1.8s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+}
+@keyframes item {
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,-100px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+/*@keyframes loader {
+    from{
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(0px,30px);
+    }
+}
+@keyframes loader2 {
+    from{
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(0px,30px);
+    }
+}
+@keyframes loader3 {
+    from{
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(0px,30px);
+    }
+}
+@keyframes loader4 {
+    from{
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(0px,30px);
+    }
+}
+@keyframes loader5 {
+    from{
+        transform: translate(0,0);
+    }
+    to{
+        transform: translate(0px,30px);
+    }
+}*/
+@keyframes item2 {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(0px, -28px);
+    }
+}
+
+.book{
+    color: #0fea0f;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+}

@@ -1,0 +1,133 @@
+body{
+    background: linear-gradient(90deg,blue,blueviolet,magenta);
+}
+.wrap{
+    width: 2000px;
+    height: 700px;
+    margin: 200px auto;
+}
+.menu {
+    width: 2000px;
+    height: 900px;
+    background: linear-gradient(90deg,blue,blueviolet,magenta);
+    padding-left: 5ox;
+    position: relative;
+}
+.menu-item1{
+    width: 250px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background: #fafafa;
+    float: left;
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 100px;
+    left: 210px;
+    z-index: 1;
+}
+.menu-item2{
+    width: 250px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background: #fafafa;
+    float: left;
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 50px;
+    left: 130px;
+    z-index: 2;
+}
+.menu-item3{
+    width: 250px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background: #fafafa;
+    float: left;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    z-index: 3;
+}
+.menu-item4{
+    width: 250px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background: #fafafa;
+    float: left;
+    transform: rotate(10deg);
+    position: absolute;
+    top: 45px;
+    left: -10px;
+    z-index: 2;
+}
+.menu-item5{
+    width: 250px;
+    height: 700px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background: #fafafa;
+    float: left;
+    transform: rotate(15deg);
+    top: 90px;
+    left: -80px;
+    z-index: 1;
+}
+.menu-item1{
+    position: relative;
+}
+.menu-item2{
+    position: relative;
+}
+.menu-item3{
+    position: relative;
+}
+.menu-item4{
+    position: relative;
+}
+.menu-item5{
+    position: relative;
+}
+.menu-box{
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.menu-block{
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 330px;
+    left: 30px;
+}
+.book{
+    text-align: center;
+}
+.menu-item1:hover {
+    transform: scale(1.5) rotate(-20deg);
+    z-index: 4;
+}
+.menu-item2:hover {
+    transform: scale(1.5) rotate(-10deg);
+    z-index: 4;
+}
+.menu-item3:hover {
+     transform: scale(1.5);
+    z-index: 3;
+ }
+.menu-item4:hover {
+    transform: scale(1.5) rotate(10deg);
+    z-index: 3;
+}
+.menu-item5:hover {
+    transform: scale(1.5) rotate(20deg);
+    z-index: 3;
+}

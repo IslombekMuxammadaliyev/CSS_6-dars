@@ -1,0 +1,224 @@
+.wrap{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background: #000000;
+}
+.menu{
+    width: 900px;
+    height: 700px;
+    margin: 20px;
+    padding-top: 170px;
+    padding-left: 300px;
+    display: flex;
+}
+.menu-item1{
+    width: 90px;
+    height: 250px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid white;
+    background: white;
+    position: relative;
+    margin: 0 3px;
+    margin-top: 110px;
+}
+.menu-item2{
+    width: 90px;
+    height: 320px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid white;
+    background: white;
+    position: relative;
+    margin: 0 3px;
+    padding-top: 50px;
+    margin-top: 40px;
+    animation-name: loader;
+}
+.menu-item3{
+    width: 90px;
+    height: 450px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid white;
+    background: white;
+    position: relative;
+    margin: 0 3px;
+}
+.menu-item4{
+    width: 90px;
+    height: 370px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid white;
+    background: white;
+    position: relative;
+    margin: 0 3px;
+    margin-top: 38px;
+
+}
+.menu-item5{
+    width: 150px;
+    height: 150px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 150px;
+    border: 1px solid white;
+    background: white;
+    position: relative;
+    margin: 0 3px;
+    margin-top: 130px;
+    animation-name: loader;
+    animation-duration: 0.7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.box-1{
+    width: 60px;
+    height: 70px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 49px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 24px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 160px;
+    left: 15px;
+}
+.box-2{
+    width: 60px;
+    height: 70px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 49px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 24px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 280px;
+    left: 15px;
+}
+.box-3{
+    width: 60px;
+    height: 70px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 49px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 24px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 350px;
+    left: 15px;
+}
+.box-4{
+    width: 64px;
+    height: 70px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 49px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 24px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 270px;
+    left: 14px;
+}
+.box-5{
+    width: 125px;
+    height: 40px;
+    border-bottom-left-radius: 60px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+.block-1{
+    width: 60px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.block-2{
+    width: 60px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+.block-3{
+    width: 60px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+.block-4{
+    width: 64px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 25px;
+    left: 14px;
+}
+.block-5{
+    width: 60px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+}
+.block-6{
+    width: 60px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 45px;
+    left: 15px;
+}
+.block-7{
+    width: 60px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+.block-8{
+    width: 64px;
+    height: 10px;
+    border: 1px solid blue;
+    background: blue;
+    position: absolute;
+    top: 45px;
+    left: 14px;
+}
+.book{
+    color: #0fea0f;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+}
